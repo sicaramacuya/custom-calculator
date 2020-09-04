@@ -1,4 +1,4 @@
-# custom calculator
+# Custom calculator
  Orbits around the sun calculator
 
 # What it actually does?
