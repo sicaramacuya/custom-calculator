@@ -11,7 +11,7 @@ def get_rid_comma(value):   # This funtion will get rid of any comma provided by
     return(value.replace(',',''))
 
 def asking_user_planet_age(planet):   # Will ask for the user the input. Age of planet to calculate the orbits.
-    planet_age_year = float(get_rid_comma(input(f"\nPlanet chossen: {planet}\nFor how many years you want to calculate the total amount of orbits {planet} have?\n")))
+    planet_age_year = float(get_rid_comma(input(f"\nPlanet choosen: {planet}\nFor how many years you want to calculate the total amount of orbits {planet} have?\n")))
     return planet_age_year
 
 def giving_results(planet, planet_age, planet_orbits):   # Will output the results.
